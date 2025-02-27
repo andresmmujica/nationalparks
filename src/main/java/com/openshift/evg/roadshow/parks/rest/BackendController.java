@@ -17,6 +17,6 @@ public class BackendController{
 
     @RequestMapping(method = RequestMethod.GET, produces = "application/json")
     public Backend get() {
-        return new Backend("nationalparks","Github WebHook Andres National Parks (Java)", new Coordinates("47.039304", "14.505178"), 4);
+        return new Backend("nationalparks","Github Actions (never forget to remove the annotations!) Andres National Parks (Java)", new Coordinates("47.039304", "14.505178"), 4);
     }
 }
